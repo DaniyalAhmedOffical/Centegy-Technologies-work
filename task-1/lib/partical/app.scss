@@ -1,0 +1,239 @@
+$primaryColor :  #0AC09F;
+
+
+
+
+body{
+    background-color: #FAFAFA;
+}
+
+.row{
+ .header-first {
+    background-color: #151A2D;
+    height: 18px;
+    display: flex;
+    align-items: center;
+}
+.header-second{
+    background-color: #fff;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.25);
+height: 46px;
+    h1{
+        color: #484848;
+        margin: 0 0;
+        text-transform: capitalize;
+        font-weight: 400;
+    }
+}
+}
+.wrepper1{
+    width: 97%;
+    margin: 0 10px;
+    h1{
+        font-size: 0.65rem;
+        font-weight: 200;
+    }
+}
+.wrepper2{
+    width: 100%;
+
+    .detail-main-div{
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .detail-one{
+        height: 92vh;
+        width: 16%;
+        background-color:#EFEFEF ;
+        box-shadow: none;
+        h3{
+            color: black;
+            
+        }
+        .detail-main {
+    display: flex;
+    line-height: 1;
+    .dataset-options{
+        width: 85%;
+    }
+    a{
+        h3{
+            font-weight: 500;
+    color: #484848;
+    font-size: 0.75rem
+        }
+    }
+}
+    }
+}
+
+.detail-two{
+    width: 59%;
+    box-shadow: none;
+    background-color: #FAFAFA;
+    .div-two-h3{
+        font-size: 0.75rem;
+        font-weight: 500;
+        color: #484848;
+        margin-left: 10px;
+    }
+.two-wrepper{
+    width: 100%;
+    .top-div{
+        display: flex;
+        .div-left{
+            width: 60%;
+            margin-left: 10px;
+            
+        }
+    }
+    .two-top{
+        border: 1px solid #CED1D1;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: auto;
+        background-color: #fff;
+        border-radius: 2px;
+        .top-content{
+            border: 1px dotted #CED1D1;
+            height: 26vh;
+            margin: 10px 10px;
+        }
+
+        .detail1-btn {
+            background-color: $primaryColor;
+            border: 1px solid;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 0.685rem;
+            margin: 12px 2px;
+            border-radius: 5px;
+            width: 111px;
+            height: 32px;
+            margin-left: 16px;
+        }
+    }
+
+    .two-bottom{
+        border: 1px solid #CED1D1;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: auto;
+        background-color: #fff;
+        border-radius: 2px;
+        .top-content{
+            border: 1px dotted #CED1D1;
+            height: 25vh;
+            margin: 10px 10px;
+        }
+
+        .detail1-btn {
+            background-color: #CED1D1;
+            border: 1px solid;
+            color: #000;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 0.685rem;
+            margin: 12px 2px;
+            border-radius: 5px;
+            width: 111px;
+            height: 32px;
+            margin-left: 16px;
+            border: none;
+        }
+    }
+}
+    
+}
+
+
+
+.dot{
+    background-color: $primaryColor;
+    height: 25px;
+    width: 10px;
+    margin-left: -10px;
+}
+.wrepper2 .detail-three{
+    width: 25%;
+
+    .detail-head {
+        margin-top: 13px;
+        margin-bottom: 13px;
+
+    }
+.btn-div .detail1-btn {
+
+        width: 55px;
+        height: 45px;
+        background-color: #CED1D1;
+        color: #000;
+        border: none;
+        margin: 5px 0px;
+        margin-left: 10px;
+    
+    }
+
+
+    .sr-button{
+margin-left: 10px;
+     .button {
+        background-color: $primaryColor;
+        border-radius: 2px;
+    width: 47%;
+    height: 45px;
+    margin-right: 1px;
+    float: left;
+    margin-top: 76%;
+    }
+}
+}
+
+.mainContent{
+    margin-left: 10px;
+}
+.fieldInput {
+    display: block;
+    margin: 4px auto;
+    width: 94%px;
+    height: 25px;
+    position: relative;
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+    .form-input {
+      width: 200px;
+      background: none;
+      border: none;
+      padding: 8px 20px;
+      font-size: 0.875rem;
+      color: #6A7C92;
+      &:focus {
+        outline: none;
+      }
+    }
+    .form-submit {
+      font-size: 12px;
+      color: white;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 50px;
+      height: 40px;
+      border-radius: 5px;
+      border: none;
+background-color: $primaryColor;
+      cursor: pointer;
+    }
+  }
+
+  
+    

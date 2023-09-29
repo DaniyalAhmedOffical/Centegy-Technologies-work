@@ -1,0 +1,213 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 5px;
+  grid-row-gap: 10px;
+}
+
+.grid-item {
+  background-color: #dfdfdf;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  color: grey;
+  margin-bottom: 5px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+.grid-container3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+}
+
+.grid-container4 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 5px;
+}
+
+.grid-container1 {
+  width: 100%;
+}
+
+.c-style {
+  height: auto;
+  background: #dfdfdf;
+  font-size: 34px;
+  padding: 8px;
+  display: inline-block;
+  color: gray;
+  margin-bottom: 5px;
+  margin-left: 0.2%;
+  margin-right: 0.2%;
+}
+
+.wrapper1 {
+  width: 100%;
+}
+.wrapper1 .child1 {
+  width: 30%;
+}
+.wrapper1 .child2 {
+  width: 66%;
+}
+
+.wrapper2 {
+  width: 100%;
+}
+.wrapper2 .child1 {
+  width: 40%;
+}
+.wrapper2 .child2 {
+  width: 56%;
+}
+
+.wrapper3 .child1 {
+  width: 50%;
+}
+.wrapper3 .child2 {
+  width: 46%;
+}
+
+.wrapper4 .child1 {
+  width: 60%;
+}
+.wrapper4 .child2 {
+  width: 36%;
+}
+
+.wrapper5 .child1 {
+  width: 70%;
+}
+.wrapper5 .child2 {
+  width: 26%;
+}
+
+.wrapper6 {
+  width: 100%;
+}
+.wrapper6 .child1 {
+  width: 10.65%;
+  margin-left: 0.1%;
+  margin-right: 0.1%;
+  text-align: center;
+}
+.wrapper6 .child2 {
+  text-align: center;
+  width: 23.15%;
+  margin-left: 0.1%;
+  margin-right: 0.1%;
+}
+.wrapper6 .child3 {
+  text-align: center;
+  width: 48.15%;
+  margin-left: 0.1%;
+  margin-right: 0.1%;
+}
+.wrapper6 .child4 {
+  text-align: center;
+  width: 98.15%;
+  margin-left: 0.1%;
+  margin-right: 0.1%;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .grid-container2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-container3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .wrapper1 .child1 {
+    width: 27%;
+  }
+  .wrapper2 .child1 {
+    width: 37%;
+  }
+  .wrapper3 .child1 {
+    width: 47%;
+  }
+  .wrapper4 .child1 {
+    width: 57%;
+  }
+  .wrapper5 .child1 {
+    width: 67%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid-container2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main-wrapper .child1 {
+    width: 95%;
+  }
+  .main-wrapper .child2 {
+    width: 95%;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.column,
+.column-full,
+.column-half, .column-4 {
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.column {
+  width: calc(12.5% - 10px);
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #ccc;
+}
+
+.column-4 {
+  width: calc(25% - 10px);
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #ccc;
+}
+
+.column-half {
+  width: calc(50% - 10px);
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #ccc;
+}
+
+.column-full {
+  width: calc(100% - 10px);
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #ccc;
+}
+
+/* Clearing float at the end of each row *//*# sourceMappingURL=web.css.map */

@@ -1,0 +1,76 @@
+.detail-main-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail1 {
+  width: 21%;
+  height: 35.4%;
+  background-color: #FFF;
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.25);
+}
+
+.detail-button .detail1-btn {
+  height: 60px;
+  width: 60px;
+  background-color: white;
+  border: 1px solid;
+  color: #0179D4;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.685rem;
+  margin: 12px 2px;
+  border-radius: 5px;
+  margin-left: 16px;
+}
+
+.detail-main {
+  display: flex;
+}
+.detail-main .detail-options {
+  width: 55%;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+.detail-main .detail-options a {
+  text-decoration: none;
+}
+.detail-main .detail-options a .active {
+  color: #9E9D9B;
+}
+
+.detail2 {
+  width: 76%;
+  height: 35.4%;
+  background-color: #FFF;
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.25);
+}
+.detail2 .container-fluid {
+  display: flex;
+  justify-content: space-between;
+}
+.detail2 .container-fluid .detail2-tables {
+  width: 33%;
+}
+.detail2 .container-fluid .detail2-tables .info-bank-table2 {
+  width: 100%;
+}
+.detail2 table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.detail2 .table3 {
+  margin-left: 0%;
+}
+
+.wrepper2 {
+  width: 92%;
+  margin: auto;
+}
+
+.wrepper2 .body-head-button .button .active {
+  background-color: #0179D4;
+  color: white;
+}/*# sourceMappingURL=detail2.css.map */

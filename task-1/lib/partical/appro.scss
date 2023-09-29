@@ -1,0 +1,211 @@
+.par-div{
+    column-count: 8;
+
+  }
+
+  .par-div2 {
+    column-count: 4; 
+  }
+
+
+  .par-div3 {
+    column-count: 2; 
+  }
+
+
+  .par-div4 {
+    column-count: 1; 
+  }
+
+
+  .child-div{
+   padding : 10px;
+   border : 1px solid  black;
+   text-align : center;
+   background-color : #dfdfdf;
+   margin-bottom: 5px;
+
+   }
+
+.span{
+    padding : 10px;
+    border : 1px solid  black;
+    text-align : center;
+     background-color : #dfdfdf;
+     margin-bottom: 5px;
+     margin-left: 5px;
+     width: 1.25%;
+     height: 5px;
+}
+
+   // tablet css 
+  @media screen and (max-width: 768px)  {
+    .par-div {
+        column-count: 4;
+    }
+
+    .par-div2 {
+        column-count: 2;
+    }
+
+    .par-div3 {
+        column-count: 1;
+    }
+
+
+  }
+
+  // mbl css 
+  @media screen and (max-width: 480px)  {
+    .par-div {
+        column-count: 1;
+    }
+
+    .par-div2 {
+        column-count: 1;
+    }
+}
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+      overflow: hidden; 
+
+}
+
+.container {
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    margin-top: 1%;
+}
+
+.container {
+    div {
+        width: 10%;
+        height: 100px;
+        margin-left: 0.9%;
+        margin-bottom: 5px;
+        float: left;
+        background-color: #dfdfdf;
+        padding: 10px;
+        font-size: 45px;
+        text-align: center;
+        color: white;
+
+    }
+}
+
+
+.container2 {
+    div {
+        width: 22.3%;
+        height: 100px;
+        margin-left: 0.9%;
+        margin-bottom: 5px;
+        float: left;
+        background-color: #dfdfdf;
+        padding: 10px;
+        font-size: 45px;
+        text-align: center;
+        color: white;
+
+    }
+}
+
+.container3 {
+    div {
+        width: 46.9%;
+        height: 100px;
+        margin-left: 0.9%;
+        margin-bottom: 5px;
+        float: left;
+        background-color: #dfdfdf;
+        padding: 10px;
+        font-size: 45px;
+        text-align: center;
+        color: white;
+
+    }
+}
+
+
+.container4 {
+    div {
+        width: 97%;
+        height: 100px;
+        margin-left: 0.9%;
+        float: left;
+        background-color: #dfdfdf;
+        padding: 10px;
+        font-size: 45px;
+        text-align: center;
+        color: white;
+
+    }
+}
+
+
+//  tablet css 
+  @media screen and (max-width: 768px)  {
+    .container {
+        div {
+            width: 21%;
+            height: 100px;
+            margin-left: 0.9%;
+            margin-bottom: 5px;
+            float: left;
+         
+            padding: 10px;
+            font-size: 45px;
+           
+    
+        }
+    }
+
+    .container2 {
+        div {
+            width: 45.8%;
+        }
+    }
+
+    .container3 {
+        div {
+            width: 45.8%;
+        }
+    }
+
+   
+
+
+  }
+  // mbl css 
+  @media screen and (max-width: 480px)  {
+    .container {
+        div {
+            width: 95%;
+            height: 100px;
+            margin-left: 0.9%;
+            margin-bottom: 5px;
+            float: left;
+         
+            padding: 10px;
+            font-size: 45px;
+           
+    
+        }
+    }
+    .container2 {
+        div {
+            width: 95%;}
+        }
+        .container3 {
+            div {
+                width: 95%;}
+            }
+            
+}
